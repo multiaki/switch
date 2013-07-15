@@ -1,15 +1,16 @@
 extends layout
  
 block content
-  div.top
-    form.form-horizontal(method="post", id="loginForm")
-      label(for="username") Username
-      input.span3(id="username", type="text", name="User", placeholder="Enter your username")
-      label Password
-      input.span3(id="password", type="password", name="Password")
-      input.btn(type="submit", value="Log In")
+  
   div.container
     div.content
+      div.top
+        form.form-horizontal(method="post", id="loginForm")
+          label(for="username") Username
+          input.span3(id="username", type="text", name="User", placeholder="Enter your username")
+          label Password
+          input.span3(id="password", type="password", name="Password")
+          input.btn(type="submit", value="Log In")
       table.table.table-striped
         thead
           tr
