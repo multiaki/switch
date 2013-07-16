@@ -1,1 +1,0 @@
-Cannot GET /scripts/bootstrap.min.js
