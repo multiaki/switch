@@ -1,8 +1,54 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background: url("../images/subtle_white_feathers.png") repeat;
+    margin-top: 20px;
+    font-size: 1em;
+    line-height: 1.5em;
 }
 
-a {
-  color: #00B7FF;
+.header {
+    text-align: center;
+    margin-bottom: 20px;    
+}
+.header p {
+    color: rgba(52, 73, 94, 0.3);
+    display: block;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -1px;
+    padding-top: 5px;
+}
+.header h1 {
+    font-family: 'Flat-UI-Icons'; 
+    font-size: 6em;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+
+.logoimg {
+    background: url("../images/icons/Infinity-Loop@2x.png") no-repeat scroll center 0 / 200px 200px transparent;
+    height: 200px;
+    margin: 0 auto 26px;
+    overflow: hidden;
+    text-indent: -9999em;
+    width: 200px;
+    display: block;
+}
+
+.gray_background {
+    background-image: linear-gradient(#F6F6F6 0%, #FAFAFA 50%, #FAFAFA 100%);
+    border-bottom: 1px solid #C4C4C4;
+    padding: 50px 0;
+}
+.dark_background {
+    background-image: url("../images/tweed.png") ;
+    border-bottom: 1px solid #C4C4C4;
+    padding: 50px 0;
+     margin-bottom: 20px;
+     color: white;
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 1280px;
+    display: block;
 }
